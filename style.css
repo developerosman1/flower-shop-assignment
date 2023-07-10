@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* Shared Items */
+.primary-btn{
+    background-color: #E55473;
+    padding: 20px 43px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* Banner Section */
+.banner {
+    background-color: #FCEEF1;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 150px 0 150px;
+    gap: 50px;
+    align-items: center;
+}
+.banner .banner-image img{
+    width: 500px;
+    height: 600px;
+}
+.banner-image{
+    max-height: 600px;
+}
+.banner .banner-title{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.banner-text {
+    font-size: 18px;
+    color: #7C7778;
+    margin-bottom: 50px;
+}
