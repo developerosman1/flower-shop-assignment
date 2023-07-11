@@ -17,6 +17,7 @@ body {
     color: #fff;
     font-size: 20px;
     text-decoration: none;
+    border: 0;
 }
 
 .fancy-text {
@@ -192,7 +193,45 @@ body {
     width: 300px;
     height: 350px;
 }
-
+/* About Us Section */
+.about-us-section{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.about-us-image{
+    width: 600px;
+    height: 450px;
+}
+.about-section{
+    background-color: #FCEEF1;
+    margin-bottom: 80px;
+    padding-top: 80px;
+}
+.about-us-section-image{
+    max-height: 450px;
+}
+/* Subscribe Section */
+.subscribe {
+    width: 1240px;
+    margin: 0 auto;
+    background-image: url("/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    margin-bottom: 100px;
+}
+.form-section{
+    text-align: center;
+}
+.form-section input[type="email"]{
+    padding: 21px;
+    width: 700px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 16px;
+    margin-right: 10px;
+}
 /* Footer Section */
 .footer {
     background: #000;
