@@ -16,6 +16,9 @@ body{
     font-size: 20px;
     text-decoration: none;
 }
+.fancy-text {
+    color: #E55473;
+}
 
 .section-title{
     font-size: 40px;
@@ -121,4 +124,32 @@ body{
     font-size: 18px;
     color: #7C7778;
     margin-top: 20px;
+}
+/* Hot Deal Section */
+.hot-deal{
+    background-color: #FCEEF1;
+    width: 1440px;
+}
+.hot-deal-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1098px;
+    margin: 0 auto;
+    padding: 100px 0;
+    gap: 100px;
+}
+.hot-deal-title {
+        font-size: 40px;
+        font-weight: 900;
+        text-align:center;
+        margin-bottom: 20px;
+
+}
+.hot-deal-image img{
+    width: 250px;
+    height: 320px;
+}
+.center-btn{
+    text-align: center;
 }
