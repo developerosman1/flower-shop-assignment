@@ -56,12 +56,15 @@ body{
     color: #7C7778;
     margin-bottom: 50px;
 }
+/* Feature Section */
 .feature {
     display: flex;
     justify-content: center;
+    width: 1440px;
+    margin: 0 auto;
 }
 .feature-section{
-    padding: 100px 100px 0 100px;
+    padding: 100px 0px 0 0px;
 }
 .feature-gallery{
     display: flex;
@@ -71,24 +74,27 @@ body{
 
 .feature-flower-image{
     padding: 100px 30px 0 30px;
-    width: 270px;
-    height: 280px;
+    width: 332px;
+    height: 380px;
 }
 .feature-gallery img {
     width: 250px;
-    height: 280px;
+    height: 380px;
 }
 .first-item{
     background-color: #F2DEE7;
     border-radius: 200px 200px 0 0;
+    text-align: center;
 }
 .second-item{
     background-color: #D9EFF1;
     border-radius: 200px 200px 0 0;
+    text-align: center;
 }
 .third-item{
     background-color: #E3EBDB;
     border-radius: 200px 200px 0 0;
+    text-align: center;
 }
 .feature-flower-title {
     color: #272727;
@@ -97,4 +103,11 @@ body{
     text-decoration: underline;
     text-align: center;
     margin-top: 20px;
+}
+/* Our Speciality */
+.our-speciality{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    margin: 0 auto;
 }
