@@ -4,6 +4,8 @@
 }
 body{
     font-family: 'Lato', sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 /* Shared Items */
 .primary-btn{
@@ -13,6 +15,19 @@ body{
     color: #fff;
     font-size: 20px;
     text-decoration: none;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: 900;
+    text-align:center;
+    margin-bottom: 20px;
+}
+.section-text{
+    font-size: 18px;
+    color: #7C7778;
+    margin-bottom: 50px;
+    text-align: center;
 }
 /* Banner Section */
 .banner {
@@ -40,4 +55,46 @@ body{
     font-size: 18px;
     color: #7C7778;
     margin-bottom: 50px;
+}
+.feature {
+    display: flex;
+    justify-content: center;
+}
+.feature-section{
+    padding: 100px 100px 0 100px;
+}
+.feature-gallery{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.feature-flower-image{
+    padding: 100px 30px 0 30px;
+    width: 270px;
+    height: 280px;
+}
+.feature-gallery img {
+    width: 250px;
+    height: 280px;
+}
+.first-item{
+    background-color: #F2DEE7;
+    border-radius: 200px 200px 0 0;
+}
+.second-item{
+    background-color: #D9EFF1;
+    border-radius: 200px 200px 0 0;
+}
+.third-item{
+    background-color: #E3EBDB;
+    border-radius: 200px 200px 0 0;
+}
+.feature-flower-title {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
 }
